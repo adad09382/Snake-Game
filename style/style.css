@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: medium;
+  font-weight: normal;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem;
+  color: white;
+}
+body p {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  color: white;
+}
+body #restart {
+  background-color: yellow;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+body #myCanvas {
+  border: 5px solid greenyellow;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=style.css.map */
